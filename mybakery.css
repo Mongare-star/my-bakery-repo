@@ -102,3 +102,25 @@ footer {
 .hero-content p {
   font-size: small;
 }
+
+.icon-container {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+
+.icon.cart .badge {
+  position: absolute;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
